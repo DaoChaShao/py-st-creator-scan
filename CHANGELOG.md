@@ -21,7 +21,8 @@
 
 ### Docs
 
-- update CHANGELOG.md to include new features and chore entries ([20ba2fc](https://github.com///commit/20ba2fc64c6fae7ed5f862c5638bac5bd7b0eabf))
+- update Streamlit link in README for application access ([27fbf68](https://github.com///commit/27fbf689c71818c85ea6e69d9d98e32dc60a7a1a))
+- update CHANGELOG.md to include new features and chore entries ([e2a75e8](https://github.com///commit/e2a75e816ff874e6ba35dae984f387d6dde55123))
 - update README with changelog creation instructions and improve application usage guidelines ([1869212](https://github.com///commit/1869212b17d8547a43565e58f87c792e1cc1180f))
 
 ### Code Refactoring
