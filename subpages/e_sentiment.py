@@ -7,8 +7,8 @@
 # @Desc     :
 from pandas.core.interchange.dataframe_protocol import DataFrame
 from snownlp import SnowNLP
-from streamlit import (subheader, session_state, empty, data_editor, feedback,
-                       container, selectbox, bar_chart, write)
+from streamlit import (subheader, session_state, empty, data_editor, sidebar,
+                       selectbox, bar_chart, write)
 
 from utils.helper import emotion_rater
 
@@ -35,12 +35,14 @@ else:
     # write(mean)
 
     # Display the bar chart
-    with container():
-        subheader("Mean for Emotion Rating Division")
+    with sidebar:
+        subheader("Emotion Rating Division Selector")
         option: str = selectbox(
             "Select an interaction",
             options=interactions,
             index=0,
             placeholder="Select an interaction you want",
         )
-        bar_chart(mean, x="rate", y=option)
+
+    subheader("Mean for Emotion Rating Division")
+    bar_chart(mean, x="rate", y=option)
