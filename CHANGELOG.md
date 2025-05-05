@@ -5,6 +5,7 @@
 
 ### Features
 
+- add 'About' section with improvement aspects in z_about.py ([28ce1fe](https://github.com///commit/28ce1fef4877a73f9e8f2a273cde61d5f66c0cd2))
 - add watchdog dependency for file system monitoring ([d54a5bf](https://github.com///commit/d54a5bf107c502abdc809f1cda87d5bcbfe346cd))
 - add git-changelog dependency for automated changelog generation ([009a164](https://github.com///commit/009a164cab23b6e7a2248c7cc4393768b18564f9))
 - add pyproject.toml for automated changelog generation ([c6c54fe](https://github.com///commit/c6c54feb89bd4fcb36cab802011f143ddf1c8e4c))
@@ -21,11 +22,13 @@
 
 ### Docs
 
-- update Streamlit link in README for application access ([27fbf68](https://github.com///commit/27fbf689c71818c85ea6e69d9d98e32dc60a7a1a))
+- rename expander title from 'APPLICATION INTRODUCTION' to 'INTRODUCTION' ([035a48d](https://github.com///commit/035a48d538ff44e0c2b71c3cd02f1f75fc50c3f3))
+- update Streamlit link in README for application access ([b47bac0](https://github.com///commit/b47bac0dfecd9cae208aaf164188f06142a5bb9c))
 - update CHANGELOG.md to include new features and chore entries ([e2a75e8](https://github.com///commit/e2a75e816ff874e6ba35dae984f387d6dde55123))
 - update README with changelog creation instructions and improve application usage guidelines ([1869212](https://github.com///commit/1869212b17d8547a43565e58f87c792e1cc1180f))
 
 ### Code Refactoring
 
+- update page title and add 'About' section to layout ([693c288](https://github.com///commit/693c2886065bdb760f2866d2d60d96b52be12b58))
 - streamline file upload and data processing logic in b_description.py ([05ece28](https://github.com///commit/05ece284126aeefdf0553dd7003763197baf1acf))
 
