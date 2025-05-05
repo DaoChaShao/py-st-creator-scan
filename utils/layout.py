@@ -15,7 +15,7 @@ def page_config() -> None:
     :return: None
     """
     set_page_config(
-        page_title="Tiktok",
+        page_title="Video Analysis",
         page_icon=":material/videocam:",
         layout="wide",
         initial_sidebar_state="expanded",
@@ -35,6 +35,7 @@ def pages_setter() -> None:
             "subpages/d_content.py",
             "subpages/e_sentiment.py",
             "subpages/f_novelty.py",
+            "subpages/z_about.py",
         ],
         "title": [
             "Home",
@@ -43,6 +44,7 @@ def pages_setter() -> None:
             "Content",
             "Sentiment Analysis",
             "Content Novelty",
+            "About",
         ],
         "icon": [
             ":material/home:",
@@ -50,7 +52,8 @@ def pages_setter() -> None:
             ":material/line_axis:",
             ":material/description:",
             ":material/category:",
-            ":material/stream:"
+            ":material/stream:",
+            ":material/info:",
         ],
     }
 
@@ -64,7 +67,10 @@ def pages_setter() -> None:
             Page(page=pages["page"][3], title=pages["title"][3], icon=pages["icon"][3]),
             Page(page=pages["page"][4], title=pages["title"][4], icon=pages["icon"][4]),
             Page(page=pages["page"][5], title=pages["title"][5], icon=pages["icon"][5]),
-        ]
+        ],
+        "Information": [
+            Page(page=pages["page"][6], title=pages["title"][6], icon=pages["icon"][6]),
+        ],
     }
     pg = navigation(structure, position="sidebar", expanded=True)
     pg.run()
