@@ -5,6 +5,7 @@
 
 ### Features
 
+- add watchdog dependency for file system monitoring ([d54a5bf](https://github.com///commit/d54a5bf107c502abdc809f1cda87d5bcbfe346cd))
 - add git-changelog dependency for automated changelog generation ([009a164](https://github.com///commit/009a164cab23b6e7a2248c7cc4393768b18564f9))
 - add pyproject.toml for automated changelog generation ([c6c54fe](https://github.com///commit/c6c54feb89bd4fcb36cab802011f143ddf1c8e4c))
 - enhance sentiment analysis UI by adding sidebar for interaction selection ([d182210](https://github.com///commit/d18221014ecf970cbdb842217382031167546809))
@@ -13,6 +14,10 @@
 ### Bug Fixes
 
 - update application title and enhance the introduction details in a_home.py ([c396499](https://github.com///commit/c3964999441d4c1a3acc7194e2a6d364c76870ca))
+
+### Chore
+
+- add initial CHANGELOG.md for version 0.1.0 with features, bug fixes, and documentation updates ([a84e193](https://github.com///commit/a84e193837e8624a138e1d171025477192dc4bc4))
 
 ### Docs
 
