@@ -22,6 +22,7 @@
 
 ### Docs
 
+- update CHANGELOG.md for version 0.1.0 release and recent changes ([e23700f](https://github.com///commit/e23700f756ba288e5282d0ff2171d00703301d16))
 - update CHANGELOG.md to include recent features and improvements ([bfe9f37](https://github.com///commit/bfe9f37d0863dd1ec8ce77e1815dfdec7735f206))
 - rename expander title from 'APPLICATION INTRODUCTION' to 'INTRODUCTION' ([035a48d](https://github.com///commit/035a48d538ff44e0c2b71c3cd02f1f75fc50c3f3))
 - update Streamlit link in README for application access ([b47bac0](https://github.com///commit/b47bac0dfecd9cae208aaf164188f06142a5bb9c))
