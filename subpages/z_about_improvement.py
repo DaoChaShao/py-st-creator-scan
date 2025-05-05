@@ -3,15 +3,14 @@
 # @Time     :   2025/5/5 23:42
 # @Author   :   Shawn
 # @Version  :   Version 0.1.0
-# @File     :   z_about.py
+# @File     :   z_about_improvement.py
 # @Desc     :   
 
 from streamlit import title, divider, expander, caption, empty
 
 title("Aspects for improvement")
 divider()
-with expander("ABOUT", expanded=True):
-    caption("There are still many aspects that need improvement:")
+with expander("FUTURE IMPROVEMENT", expanded=True):
     caption("1. **Supplementing basic data**, such as completion rate and comments.")
     caption("2. **Content diversity analysis**.")
     caption("3. **Annotation of special holidays or events**.")
