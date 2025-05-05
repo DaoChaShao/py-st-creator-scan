@@ -1,7 +1,7 @@
 <!-- insertion marker -->
 <a name="0.1.0"></a>
 
-## [0.1.0](https://github.com///compare/e4b451f35493e3a89fef2f385d50e7f96f54c9e1...0.1.0) (2025-05-05)
+## [0.1.0](https://github.com///compare/e4b451f35493e3a89fef2f385d50e7f96f54c9e1...0.1.0) (2025-05-06)
 
 ### Features
 
@@ -22,7 +22,7 @@
 
 ### Docs
 
-- update CHANGELOG.md to include recent features and improvements ([7100e29](https://github.com///commit/7100e296f32f98231596c63d43e1a69552075800))
+- update CHANGELOG.md to include recent features and improvements ([bfe9f37](https://github.com///commit/bfe9f37d0863dd1ec8ce77e1815dfdec7735f206))
 - rename expander title from 'APPLICATION INTRODUCTION' to 'INTRODUCTION' ([035a48d](https://github.com///commit/035a48d538ff44e0c2b71c3cd02f1f75fc50c3f3))
 - update Streamlit link in README for application access ([b47bac0](https://github.com///commit/b47bac0dfecd9cae208aaf164188f06142a5bb9c))
 - update CHANGELOG.md to include new features and chore entries ([e2a75e8](https://github.com///commit/e2a75e816ff874e6ba35dae984f387d6dde55123))
@@ -30,6 +30,8 @@
 
 ### Code Refactoring
 
+- rename 'About' section to 'Future Improvement' and update file reference ([03db450](https://github.com///commit/03db45079509c66c64a66c4ce57344791fe4e60b))
+- rename 'About' section to 'Future Improvement' and update related file reference ([2adb166](https://github.com///commit/2adb16666b5617624b931b8f443d23cf543b54ec))
 - update page title and add 'About' section to layout ([693c288](https://github.com///commit/693c2886065bdb760f2866d2d60d96b52be12b58))
 - streamline file upload and data processing logic in b_description.py ([05ece28](https://github.com///commit/05ece284126aeefdf0553dd7003763197baf1acf))
 
