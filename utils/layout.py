@@ -35,7 +35,7 @@ def pages_setter() -> None:
             "subpages/d_content.py",
             "subpages/e_sentiment.py",
             "subpages/f_novelty.py",
-            "subpages/z_about.py",
+            "subpages/z_about_improvement.py",
         ],
         "title": [
             "Home",
@@ -44,7 +44,7 @@ def pages_setter() -> None:
             "Content",
             "Sentiment Analysis",
             "Content Novelty",
-            "About",
+            "Future Improvement",
         ],
         "icon": [
             ":material/home:",
@@ -68,7 +68,7 @@ def pages_setter() -> None:
             Page(page=pages["page"][4], title=pages["title"][4], icon=pages["icon"][4]),
             Page(page=pages["page"][5], title=pages["title"][5], icon=pages["icon"][5]),
         ],
-        "Information": [
+        "About": [
             Page(page=pages["page"][6], title=pages["title"][6], icon=pages["icon"][6]),
         ],
     }
