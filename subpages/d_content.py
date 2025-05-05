@@ -55,21 +55,26 @@ else:
     stopwords = filter_stopwords(STOPWORDS)
     words = [word for word in words if word not in stopwords and len(word) > 1]
     # write(words)
+    # write(len(words))
 
-    # Count the frequency of each word
+    # Count the frequency of each word, and remove the duplicates
     frequencies = Counter(words)
     # write(frequencies)
+    # write(len(frequencies))
 
     # Filter the lower frequency words, the word frequency should be higher than 1
     frequencies = {word: freq for word, freq in frequencies.items() if freq > 1}
     # write(frequencies)
+    # write(len(frequencies))
 
     # Transform frequencies dict into a dataframe
     freq: DataFrame = DataFrame(list(frequencies.items()), columns=["word", "frequency"])
     # write(freq)
+    # write(len(freq))
     # Sort the frequencies dataframe
     sorted_freq: DataFrame = freq.sort_values("frequency", ascending=False)
     # write(freq)
+    # write(len(sorted_freq))
 
     # Display the chart of the sorted dataframe
     subheader("Table for words Frequencies")
@@ -90,7 +95,7 @@ else:
             font = f"assets/{font}.ttf"
         MAX: int = slider(
             "Number of Top Words Frequencies",
-            min_value=1, max_value=30, value=12, step=1,
+            min_value=1, max_value=len(sorted_freq), value=12, step=1,
             help="Max words for the word cloud",
         )
         if MAX:
