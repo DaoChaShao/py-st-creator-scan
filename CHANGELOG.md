@@ -21,6 +21,7 @@
 
 ### Docs
 
+- update CHANGELOG.md to include new features and chore entries ([20ba2fc](https://github.com///commit/20ba2fc64c6fae7ed5f862c5638bac5bd7b0eabf))
 - update README with changelog creation instructions and improve application usage guidelines ([1869212](https://github.com///commit/1869212b17d8547a43565e58f87c792e1cc1180f))
 
 ### Code Refactoring
