@@ -10,7 +10,7 @@ from collections import Counter
 from jieba import load_userdict, lcut
 from pandas import DataFrame
 from streamlit import (session_state, empty, image, data_editor, bar_chart,
-                       subheader, write)
+                       subheader, sidebar, selectbox, slider, write)
 
 from utils.helper import (filter_chinese_and_english,
                           filter_stopwords,
@@ -21,6 +21,7 @@ if "data" not in session_state:
 
 empty_message: empty = empty()
 empty_table: empty = empty()
+empty_cloud: empty = empty()
 
 if session_state.data is None:
     empty_message.warning("Please select a CSV file to upload initially.")
@@ -77,9 +78,23 @@ else:
     bar_chart(sorted_freq.set_index("word"), use_container_width=True)
 
     # Generate the word cloud
-    FONT: str = "assets/qingKeHuangYou.ttf"
-    MAX: int = 12
-    cloud = wordcloud_generator(FONT, top_n=MAX, sorted_df=sorted_freq)
+    with sidebar:
+        subheader("Wordcloud Settings")
+        FONTS: list[str] = ["qingKeHuangYou", ]
+        font: str = selectbox(
+            "Font",
+            options=FONTS, index=0,
+            help="Font for the word cloud",
+        )
+        if font:
+            font = f"assets/{font}.ttf"
+        MAX: int = slider(
+            "Number of Top Words Frequencies",
+            min_value=1, max_value=30, value=12, step=1,
+            help="Max words for the word cloud",
+        )
+        if MAX:
+            cloud = wordcloud_generator(font, top_n=MAX, sorted_df=sorted_freq)
 
     # Display the word cloud
     img = cloud.to_image()
