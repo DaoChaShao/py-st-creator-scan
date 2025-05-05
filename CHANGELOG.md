@@ -22,7 +22,7 @@
 
 ### Docs
 
-- update CHANGELOG.md for version 0.1.0 release and recent changes ([e23700f](https://github.com///commit/e23700f756ba288e5282d0ff2171d00703301d16))
+- update CHANGELOG.md for version 0.1.0 release and recent changes ([3edf31c](https://github.com///commit/3edf31c703296a1c69aa60c82521cad2de3050a6))
 - update CHANGELOG.md to include recent features and improvements ([bfe9f37](https://github.com///commit/bfe9f37d0863dd1ec8ce77e1815dfdec7735f206))
 - rename expander title from 'APPLICATION INTRODUCTION' to 'INTRODUCTION' ([035a48d](https://github.com///commit/035a48d538ff44e0c2b71c3cd02f1f75fc50c3f3))
 - update Streamlit link in README for application access ([b47bac0](https://github.com///commit/b47bac0dfecd9cae208aaf164188f06142a5bb9c))
@@ -31,6 +31,7 @@
 
 ### Code Refactoring
 
+- update word frequency calculation and adjust slider max value ([4dc6c6b](https://github.com///commit/4dc6c6b913ba8aa4d79f85ade4651288f99dcc4b))
 - rename 'About' section to 'Future Improvement' and update file reference ([03db450](https://github.com///commit/03db45079509c66c64a66c4ce57344791fe4e60b))
 - rename 'About' section to 'Future Improvement' and update related file reference ([2adb166](https://github.com///commit/2adb16666b5617624b931b8f443d23cf543b54ec))
 - update page title and add 'About' section to layout ([693c288](https://github.com///commit/693c2886065bdb760f2866d2d60d96b52be12b58))
