@@ -10,7 +10,7 @@ from streamlit import title, divider, expander, caption, empty
 
 title("Short Video Analysis")
 divider()
-with expander("APPLICATION INTRODUCTION", expanded=True):
+with expander("INTRODUCTION", expanded=True):
     caption("1. Arrangement of Data：from2nd April 2025 to 1st May 2025")
     caption("2. Categories of Data：date, time, like, comment, collection, forward, face, duration, content")
     caption("3. Data Source：CSV file, UTF-8 encoding")
